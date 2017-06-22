@@ -9,6 +9,7 @@ libs:
   - origin: https://github.com/mongoose-os-libs/spi
 
 cdefs:
+  ARDUINO: 150
   ESP32: 1
   F_CPU: 160000000
 
