@@ -6,8 +6,11 @@ version: 1.0
 sources:
   - src
 libs:
-  - origin: https://github.com/mongoose-os-libs/arduino-compat
   - origin: https://github.com/mongoose-os-libs/spi
+
+cdefs:
+  ESP32: 1
+  F_CPU: 160000000
 
 tags:
   - arduino
